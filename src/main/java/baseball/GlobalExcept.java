@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+// 예외 처리 클래스
 public class GlobalExcept {
     public static void checkDuplication(List<Ball> balls){
         Set<Ball> ballSet = new HashSet<>(balls);
